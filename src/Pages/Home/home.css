@@ -1,0 +1,58 @@
+.banners {
+    background-image: url('../../assent/banner.jpg');
+    width: 100%;
+    height: auto !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.header {
+    height: auto !important;
+    width: 100%;
+    background: black;
+    overflow: hidden;
+    background: #C33764;
+    /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.616)), url("https://bit.ly/2rlzaXi");
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(37, 37, 37, 0.8)), url("https://bit.ly/2rlzaXi");
+    /* The least supported option. */
+}
+
+img {
+    object-fit: cover;
+}
+
+.card {
+    border: 5px solid rgb(121, 121, 121);
+    margin: 0 5px !important;
+    margin-top: 20px !important;
+
+    background: linear-gradient(145deg, rgb(16, 16, 16) 60%, rgba(44, 111, 246, 0.712));
+}
+
+.card img {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.gradientBg {
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.699) 40%, rgba(25, 120, 236, 0.963));
+
+}
+
+.text-shadows {
+    text-shadow: 2px 5px 4px #d712e1;
+}
+
+/* silider banner gradent overay */
+
+.img-gradient:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    background: linear-gradient(to left, rgba(0, 47, 75, 0.5) -0%, rgba(5, 4, 4, 0.836) 100%);
+}
